@@ -1,5 +1,5 @@
 {
-  "checksum": "e6bf812f0b24c50b7ddc6565371e7b47",
+  "checksum": "edf096baf6b3d602220023240d47b66f",
   "root": "@pesy/esy-pesy@link-dev:./package.json",
   "node": {
     "refmterr@3.3.2@d41d8cd9": {
@@ -151,9 +151,9 @@
       "devDependencies": [
         "ocaml@4.9.1000@d41d8cd9", "@reason-native/rely@3.2.1@d41d8cd9",
         "@opam/odoc@opam:1.5.0@27d69a99",
-        "@opam/ocamlformat@opam:0.12@ae78908f",
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#a83bd0921b7e11de92e878f55b6447918dbb841c@d41d8cd9",
-        "@opam/merlin@opam:3.3.5@fc7362ce", "@opam/dune@opam:2.6.0@3a9808e6",
+        "@opam/ocamlformat@opam:0.13.0@e504db92",
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#b9f72e57b184fcf7ba81ca2ab7a264e27a71a383@d41d8cd9",
+        "@opam/merlin@opam:3.3.6@7ca67060", "@opam/dune@opam:2.6.0@3a9808e6",
         "@opam/bos@opam:0.2.0@df49e63f"
       ]
     },
@@ -689,20 +689,20 @@
         "@opam/astring@opam:0.8.3@4e5e17d5"
       ]
     },
-    "@opam/ocamlformat@opam:0.12@ae78908f": {
-      "id": "@opam/ocamlformat@opam:0.12@ae78908f",
+    "@opam/ocamlformat@opam:0.13.0@e504db92": {
+      "id": "@opam/ocamlformat@opam:0.13.0@e504db92",
       "name": "@opam/ocamlformat",
-      "version": "opam:0.12",
+      "version": "opam:0.13.0",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://opam.ocaml.org/cache/sha256/f2/f2b64ff7f5cb9b4e19c6fc4e3f0fbd1747ef09d24848238540e2c27652e928fe#sha256:f2b64ff7f5cb9b4e19c6fc4e3f0fbd1747ef09d24848238540e2c27652e928fe",
-          "archive:https://github.com/ocaml-ppx/ocamlformat/releases/download/0.12/ocamlformat-0.12.tbz#sha256:f2b64ff7f5cb9b4e19c6fc4e3f0fbd1747ef09d24848238540e2c27652e928fe"
+          "archive:https://opam.ocaml.org/cache/sha256/b8/b84b694ef7c957bc05f938c98c687da77645cddab1c5ec6ae270f6113175224e#sha256:b84b694ef7c957bc05f938c98c687da77645cddab1c5ec6ae270f6113175224e",
+          "archive:https://github.com/ocaml-ppx/ocamlformat/releases/download/0.13.0/ocamlformat-0.13.0-2.tbz#sha256:b84b694ef7c957bc05f938c98c687da77645cddab1c5ec6ae270f6113175224e"
         ],
         "opam": {
           "name": "ocamlformat",
-          "version": "0.12",
-          "path": "esy.lock/opam/ocamlformat.0.12"
+          "version": "0.13.0",
+          "path": "esy.lock/opam/ocamlformat.0.13.0"
         }
       },
       "overrides": [],
@@ -868,16 +868,16 @@
         "@opam/ppx_derivers@opam:1.2.1@ecf0aa45"
       ]
     },
-    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#a83bd0921b7e11de92e878f55b6447918dbb841c@d41d8cd9": {
+    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#b9f72e57b184fcf7ba81ca2ab7a264e27a71a383@d41d8cd9": {
       "id":
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#a83bd0921b7e11de92e878f55b6447918dbb841c@d41d8cd9",
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#b9f72e57b184fcf7ba81ca2ab7a264e27a71a383@d41d8cd9",
       "name": "@opam/ocaml-lsp-server",
       "version":
-        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#a83bd0921b7e11de92e878f55b6447918dbb841c",
+        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#b9f72e57b184fcf7ba81ca2ab7a264e27a71a383",
       "source": {
         "type": "install",
         "source": [
-          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#a83bd0921b7e11de92e878f55b6447918dbb841c"
+          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#b9f72e57b184fcf7ba81ca2ab7a264e27a71a383"
         ]
       },
       "overrides": [],
@@ -953,20 +953,20 @@
         "ocaml@4.9.1000@d41d8cd9", "@opam/dune@opam:2.6.0@3a9808e6"
       ]
     },
-    "@opam/merlin@opam:3.3.5@fc7362ce": {
-      "id": "@opam/merlin@opam:3.3.5@fc7362ce",
+    "@opam/merlin@opam:3.3.6@7ca67060": {
+      "id": "@opam/merlin@opam:3.3.6@7ca67060",
       "name": "@opam/merlin",
-      "version": "opam:3.3.5",
+      "version": "opam:3.3.6",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://opam.ocaml.org/cache/sha256/96/966daa84725c8db25fda052d42b8705e0e6bda7f9e7550afed01e83d2f3ec5ca#sha256:966daa84725c8db25fda052d42b8705e0e6bda7f9e7550afed01e83d2f3ec5ca",
-          "archive:https://github.com/ocaml/merlin/releases/download/v3.3.5/merlin-v3.3.5.tbz#sha256:966daa84725c8db25fda052d42b8705e0e6bda7f9e7550afed01e83d2f3ec5ca"
+          "archive:https://opam.ocaml.org/cache/sha256/3b/3b32d29dc225cd4a975b7345d6dadd41056312f7edfb718b175bd8294165c08c#sha256:3b32d29dc225cd4a975b7345d6dadd41056312f7edfb718b175bd8294165c08c",
+          "archive:https://github.com/ocaml/merlin/releases/download/v3.3.6/merlin-v3.3.6.tbz#sha256:3b32d29dc225cd4a975b7345d6dadd41056312f7edfb718b175bd8294165c08c"
         ],
         "opam": {
           "name": "merlin",
-          "version": "3.3.5",
-          "path": "esy.lock/opam/merlin.3.3.5"
+          "version": "3.3.6",
+          "path": "esy.lock/opam/merlin.3.3.6"
         }
       },
       "overrides": [],

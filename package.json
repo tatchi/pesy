@@ -49,7 +49,7 @@
     "@reason-native/rely": "*",
     "@opam/odoc": "*",
     "@opam/merlin": "*",
-    "@opam/ocamlformat": "0.12",
+    "@opam/ocamlformat": "0.13.0",
     "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam"
   },
   "resolutions": {
