@@ -49,14 +49,11 @@
     "@reason-native/rely": "*",
     "@opam/odoc": "*",
     "@opam/merlin": "*",
-    "@opam/ocamlformat": "0.13.0",
+    "@opam/ocamlformat": "0.14.2",
     "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam"
   },
   "resolutions": {
-    "@opam/cmdliner": "link:./vendor/cmdliner/cmdliner.opam",
     "@reason-native/console": "link:./vendor/reason-native/console.json",
-    "@opam/menhir": "link:./vendor/menhir/menhir.opam",
-    "@opam/ocaml-migrate-parsetree": "link:./vendor/ocaml-migrate-parsetree/ocaml-migrate-parsetree.opam",
     "@reason-native/pastel": "link:./vendor/reason-native/pastel.json"
   }
 }
